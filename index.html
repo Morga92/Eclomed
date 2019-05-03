@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" /> 
+	<title>ECLOMED 1.0</title> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/stilo.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/eclo.js"></script>
+</head> 
+<body>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-sm-3">ECLOMED 1.0 by Josue Morga</div>
+  <div class="col-sm-6 table-responsive">
+ <table class="table">
+	 <thead>
+		<tr>
+			<th>REP</th>
+			<th>HUEVO</th>
+			<th>LARVA</th>
+			<th>TOTAL</th>
+			<th>H. MALTRATADO</th>
+		</tr>
+	 </thead>
+	 <tbody>
+		<tr>
+			<td>1</td>
+			<td><input type="number" id="h1" name="h1"></td>
+			<td><input type="number" id="l1" name="l1"></td>
+			<td><input type="text" id="t1" name="t1" disabled=""></td>
+			<td><input type="number" id="hm1" name="hm1"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td><input type="number" id="h2" name="h2"></td>
+			<td><input type="number" id="l2" name="l2"></td>
+			<td><input type="text" id="t2" name="t2" disabled=""></td>
+			<td><input type="number" id="hm2" name="hm2"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td><input type="number" id="h3" name="h3"></td>
+			<td><input type="number" id="l3" name="l3"></td>
+			<td><input type="text" id="t3" name="t3" disabled=""></td>
+			<td><input type="number" id="hm3" name="hm3"></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td><input type="number" id="h4" name="h4"></td>
+			<td><input type="number" id="l4" name="l4"></td>
+			<td><input type="text" id="t4" name="t4" disabled=""></td>
+			<td><input type="number" id="hm4" name="hm4"></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td><input type="number" id="h5" name="h5"></td>
+			<td><input type="number" id="l5" name="l5"></td>
+			<td><input type="text" id="t5" name="t5" disabled=""></td>
+			<td><input type="number" id="hm5" name="hm5"></td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td><input type="number" id="h6" name="h6"></td>
+			<td><input type="number" id="l6" name="l6"></td>
+			<td><input type="text" id="t6" name="t6" disabled=""></td>
+			<td><input type="number" id="hm6" name="hm6"></td>
+		</tr>
+		<tr>
+			<td>x</td>
+			<td><input type="text" id="xh" disabled="" value="0" name="xh"></td>
+			<td><input type="text" id="xl" disabled="" value="0" name="xl"></td>
+			<td><input type="text" id="xt" disabled="" value="0" name="xt"></td>
+			<td><input type="text" id="xhm" disabled="" value="0" name="xhm"></td>
+		</tr>
+	</tbody>
+</table>
+  </div>
+  <div class="col-sm-3">
+  <div class=form-group">
+  	 <label for="ems">Eclosion Maxima a la siembra:</label>
+    <input type="email" class="form-control" id="ems" disabled="" placeholder="ECLOSION MAXIMA SIEMBRA">
+  </div>
+   <div class=form-group">
+  	 <label for="phm">Porcentaje Huevo Maltratado:</label>
+    <input type="email" class="form-control" id="phm" disabled="" placeholder="PORCENTAJE HUEVO MALTRATADO">
+  </div>
+  </div>
+</div>
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+		<center>
+		<button id="calcular" class="btn btn-success">Calcular</button>
+		<button id="resetear" class="btn btn-danger">Reset</button>
+		</center>
+	</div>
+	<div class="col-sm-3"></div>
+</div>
+</div> 
+</body> 
+</html>
